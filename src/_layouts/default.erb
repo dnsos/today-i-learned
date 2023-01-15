@@ -3,7 +3,8 @@
   <head>
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
-  <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
+  <body class="min-h-screen">
+    <div class="bg-orange-200 p-3 font-medium">Note that this page is in early development. Don't expect things to be correct here or working right now.</div>
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
     <main>

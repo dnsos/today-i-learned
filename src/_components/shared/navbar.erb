@@ -1,11 +1,6 @@
-<header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
-</header>
-
-<nav>
-  <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/about' %>">About</a></li>
-    <li><a href="<%= relative_url '/posts' %>">Posts</a></li>
+<nav class="w-full px-3 py-3 border-b border-gray-200">
+  <ul class="flex justify-between gap-3 items-center">
+    <li><a href="<%= relative_url '/' %>" class="text-2xl">Today I Learned</a></li>
+    <li><a href="<%= relative_url '/about' %>" class="text-lg">About</a></li>
   </ul>
 </nav>
